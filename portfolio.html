@@ -1,1 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — AnkitUX</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container navInner">
+    <a class="logo" href="index.html">
+      <img src="assets/logo.png" alt="AnkitUX logo">
+    </a>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="btn btnPrimary" href="contact.html">Contact</a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="sectionTitle">
+      <div>
+        <h2>Portfolio</h2>
+        <p>Selected work (more projects coming soon).</p>
+      </div>
+    </div>
+
+    <div class="glass portfolioBox">
+      <div class="placeholder">Coming Soon</div>
+
+      <div style="margin-top:16px;">
+        <div class="badge"><span class="dot"></span> Featured Project • Coming Soon</div>
+        <h3 style="margin:12px 0 8px;">Portfolio</h3>
+        <p class="sub">
+          Premium Shopify Store Setup (Coming Soon) — homepage structure, product layout, trust blocks & speed improvements.
+        </p>
+
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:14px;">
+          <a class="btn btnPrimary" href="https://wa.me/8570924634" target="_blank">WhatsApp</a>
+          <a class="btn" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">© <span id="year"></span> AnkitUX</div>
+</footer>
+
+<script src="app.js"></script>
+<script>document.getElementById("year").innerText = new Date().getFullYear();</script>
+</body>
+</html>
 

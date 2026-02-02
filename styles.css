@@ -82,13 +82,12 @@ a{color:inherit;text-decoration:none}
   display:flex;align-items:center;gap:10px;font-weight:900;
 }
 .logo img{
-  height: 60px;      /* size */
-  width: 200px;      /* extra width taaki empty space cover ho */
+  height: 48px;            /* normal perfect size */
+  width: auto;
   object-fit: contain;
-  object-position: left center;
-  transform: scale(2.2);   /* zoom */
-  transform-origin: left center;
+  display: block;
 }
+
 
 .menu{
   display:flex;align-items:center;gap:14px;

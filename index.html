@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AnkitUX — Shopify Store Designer</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container navInner">
+      <a class="logo" href="index.html">
+        <img src="assets/logo.png" alt="AnkitUX logo">
+      </a>
+
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <a class="btn btnPrimary" href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main class="hero">
+    <div class="container heroGrid">
+
+      <div>
+        <div class="badge"><span class="dot"></span> Premium Shopify Store Designer • India</div>
+
+        <h1>Classy Shopify Stores that convert.</h1>
+
+        <p class="sub">
+          I design modern, fast and premium Shopify stores for brands.
+          From theme setup to full redesign — I make your store look high-end and sell better.
+        </p>
+
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:18px;">
+          <a class="btn btnPrimary" href="https://wa.me/8570924634" target="_blank">WhatsApp</a>
+          <a class="btn" href="portfolio.html">View Work</a>
+        </div>
+      </div>
+
+      <div class="glass heroCard">
+        <h3 style="margin:0 0 6px;">What you get</h3>
+        <p style="margin:0;color:var(--muted);line-height:1.7;">
+          Premium UI, clean layout, trust design and smooth checkout experience.
+        </p>
+
+        <div class="heroMiniGrid">
+          <div class="mini">
+            <b>Fast</b>
+            <span style="color:var(--muted);font-size:13px;">Speed optimized</span>
+          </div>
+          <div class="mini">
+            <b>Premium</b>
+            <span style="color:var(--muted);font-size:13px;">Luxury look</span>
+          </div>
+          <div class="mini">
+            <b>Clean</b>
+            <span style="color:var(--muted);font-size:13px;">No clutter</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="section">
+    <div class="container">
+      <div class="sectionTitle">
+        <div>
+          <h2>Services</h2>
+          <p>Everything you need for a premium Shopify store.</p>
+        </div>
+        <a class="btn" href="services.html">See all</a>
+      </div>
+
+      <div class="cards3">
+        <div class="glass card">
+          <div class="cardTop">
+            <div class="num">01</div>
+            <b>Full Store Setup</b>
+          </div>
+          <p class="sub">Store setup, theme install, pages, navigation, collections and structure.</p>
+        </div>
+
+        <div class="glass card">
+          <div class="cardTop">
+            <div class="num">02</div>
+            <b>Theme Customization</b>
+          </div>
+          <p class="sub">Advanced customizations in Dawn & premium themes with clean sections.</p>
+        </div>
+
+        <div class="glass card">
+          <div class="cardTop">
+            <div class="num">03</div>
+            <b>Conversion Design</b>
+          </div>
+          <p class="sub">Trust badges, CTA placement, offers layout and conversion improvements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING PREVIEW -->
+  <section class="section">
+    <div class="container">
+      <div class="sectionTitle">
+        <div>
+          <h2>Pricing</h2>
+          <p>Simple packages for brands.</p>
+        </div>
+        <a class="btn" href="pricing.html">View pricing</a>
+      </div>
+
+      <div class="priceGrid">
+        <div class="glass price">
+          <h3>Starter</h3>
+          <div class="money">₹7,999</div>
+          <ul class="ul">
+            <li>Theme setup + clean homepage</li>
+            <li>Header + footer polish</li>
+            <li>Collections structure</li>
+            <li>1 revision</li>
+          </ul>
+          <div style="margin-top:16px;">
+            <a class="btn btnPrimary" href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <div class="glass price">
+          <div class="tag">Best</div>
+          <h3>Pro</h3>
+          <div class="money">₹15,999</div>
+          <ul class="ul">
+            <li>Full premium redesign</li>
+            <li>Product page layout upgrades</li>
+            <li>Trust + conversion improvements</li>
+            <li>3 revisions</li>
+          </ul>
+          <div style="margin-top:16px;">
+            <a class="btn btnPrimary" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> AnkitUX — Shopify Store Designing Services
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>document.getElementById("year").innerText = new Date().getFullYear();</script>
+</body>
+</html>

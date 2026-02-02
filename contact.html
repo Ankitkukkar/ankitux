@@ -1,1 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — AnkitUX</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container navInner">
+    <a class="logo" href="index.html">
+      <img src="assets/logo.png" alt="AnkitUX logo">
+    </a>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="btn btnPrimary" href="contact.html">Contact</a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="sectionTitle">
+      <div>
+        <h2>Contact</h2>
+        <p>Let’s build your premium Shopify store.</p>
+      </div>
+    </div>
+
+    <div class="contactGrid">
+      <div class="glass portfolioBox">
+        <div class="badge"><span class="dot"></span> Fast reply • WhatsApp</div>
+        <h3 style="margin:12px 0 8px;">Message me</h3>
+        <p class="sub">Send your store link + your requirements. I’ll suggest the best layout & plan.</p>
+
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:14px;">
+          <a class="btn btnPrimary" href="https://wa.me/8570924634" target="_blank">WhatsApp Now</a>
+          <a class="btn" href="mailto:ankitux.business@gmail.com">Email</a>
+        </div>
+
+        <div style="margin-top:16px;color:var(--muted);font-size:14px;line-height:1.8;">
+          <b style="color:var(--text);">WhatsApp:</b> +91 8570924634 <br>
+          <b style="color:var(--text);">Location:</b> India
+        </div>
+      </div>
+
+      <div class="glass form">
+        <h3 style="margin:0 0 12px;">Quick Form</h3>
+
+        <label>Your Name</label>
+        <input class="inp" placeholder="Your name"/>
+
+        <label>Your WhatsApp</label>
+        <input class="inp" placeholder="+91 XXXXX XXXXX"/>
+
+        <label>Message</label>
+        <textarea class="inp" placeholder="Tell me about your store..."></textarea>
+
+        <a class="btn btnPrimary" href="https://wa.me/8570924634" target="_blank">Send on WhatsApp</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">© <span id="year"></span> AnkitUX</div>
+</footer>
+
+<script src="app.js"></script>
+<script>document.getElementById("year").innerText = new Date().getFullYear();</script>
+</body>
+</html>
 
